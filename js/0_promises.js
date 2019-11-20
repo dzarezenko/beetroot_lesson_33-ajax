@@ -1,4 +1,4 @@
-var promise = new Promise((resolve, reject) => {
+let promise = new Promise((resolve, reject) => {
   setTimeout(() => {
     resolve('Resolved!!!');
   }, 1000);
